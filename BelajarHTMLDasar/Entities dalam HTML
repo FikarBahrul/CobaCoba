@@ -1,0 +1,5 @@
+Dalam HTML berisikan banyak sekali Entities, Entities sendiri merupakan Karakter yang sudah dipesan di HTML.
+Entities sangatlah banyak namun Entities tidaklah wajib. Masih bisa menggunakan karakter asli, namun lebih aman menggunakan simbol Entities.
+Seluruh Daftar HTML Entity :
+https://oinam.github.io/entities/
+https://html.spec.whatwg.org/multipage/named-characters.html

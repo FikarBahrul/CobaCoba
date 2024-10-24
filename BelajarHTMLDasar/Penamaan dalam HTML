@@ -1,0 +1,4 @@
+Dalam HTML sendiri memiliki ciri khas dalam penamaan :
+Jangan menggunakan huruf besar, selalu gunakan huruf kecil semua, Misalnya : index.html, home.html, belajar.html dan lain-lain.
+Jangan menggunakan spasi pada nama file. jika butuh pemisah, gunakan - atau _ , misalnya : belajar-html.html, halaman-login.html, belajar_html.html.
+Jika butuh membuat folder digunakan aturan yang sama (jangan pakai spasi).

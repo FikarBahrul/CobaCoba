@@ -1,0 +1,25 @@
+HTML (Hyper Text Markup Language) adalah struktur dasar dari halaman sebuah web.
+HTML mendeskripsikan struktur dari isi konten halaman web.
+HTML dapat bekerja sangat baik dengan CSS dan JavaScript untuk sebuah web.
+HTML sebenarnya hanyalah sekumpulan kode yang berisikan informasi halaman web.
+Kode dalam HTML akan ditampilkan di Web secara visual.
+
+Tag HTML, berisikan tentang kumpulan perintah yang memiliki aturan pembuka dan penutup.
+contoh tag :
+<p> Doni Hermawansyah </p>
+<P> diawal adalah tag pembuka, </p> di akhir adalah tag penutup. dan Doni Hermawansyah adalah isi konten dari tag p
+Tag berisi konten atau sering disebut dengan nama Element.
+
+Void Element adalah tag di HTML adalah tag yang tidak perlu memiliki isi konten, adapun tag untuk membuat breakline/enter, dengan menggunakan tag br.
+karena tag br tidak memiliki konten maka ditulis dengan perintah :
+<br>atau<br/>
+tanpa harus menggunakan tag pemnbuka dan tag penutup.
+
+Element memiliki Attribute, Attribute adalah informasi tambahan untuk tag yang digunakan.
+Attribute bisa ditambahkan kepada tag pembuka, contoh attribute adalah <img> dengan attribute src yang berisikan lokasi gambar yang ingin kita tampilkan :
+<img src="lokasi/gambar/file.jpg"/>
+Attribute bisa digunakan di Element biasa atau di Void Element.
+
+HTML tidak case sensitive, artinya huruf besar atau kecil tidak masalah. Namun sangat disarankan menggunakan huruf kecil semua, misal <p>, jangan <P>.
+
+Project HTML disarankan untuk tidak menggunakan spasi.

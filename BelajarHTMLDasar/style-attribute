@@ -1,0 +1,11 @@
+Setiap tag di HTML memiliki attribute style, dimana CSS berperan penting untuk mengubah style isi elementnya.
+Style attribute berisikan key:value CSS, jika lebih dari satu maka gunakan ;(titik koma) sebagai pemisah, misalnya :
+<namatag style="Property:value">
+<namatag style="property:value;property2:value2">
+
+Contoh CSS
+background-color : untuk mengubah warna latar belakang.
+color : untuk mengubah warna font
+font-family : untuk mengubah jenis font
+font-size : untuk mengubah ukuran text
+text-align : untuk mengubah rata tulisan secara horizontal, bisa left (kiri), right (kanan), center (tengah), justify (kiri dan kanan).
