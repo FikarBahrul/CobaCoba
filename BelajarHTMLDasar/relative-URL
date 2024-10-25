@@ -1,0 +1,6 @@
+Relative URL adalah lokasi href dimana tetap menggunakan domain website saat ini.
+Relative URL memiliki dua format, bisa diawali dengan /, atau tidak diawali dengan /.
+misal sekarang kta berada di halaman http://127.0.0.1/belajar-link/index.html, lalu kita memiliki link sebagai berikut :
+hello.html, artinya akan menuju http://127.0.0.1/belajar-link/hello.html
+/hello.html, artinya akan menuju http://127.0.0.1/hello.html
+brangkas/hello.html, artinya akan menuju ke http://127.0.0.1/belajar-link/brangkas/hello.html

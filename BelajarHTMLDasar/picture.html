@@ -1,0 +1,19 @@
+<!--
+    selain tag img, ada tag picture yang fungsinya mirip dengan tag img, Namun ada beberapa keuntungan ketika menggunakan tag picture.
+    kita bisa menggunakan beberapa lokasi gambar, dan bisa diatur sesuai dengan ukuran layar misalnya. jadi ketika di layar besar, kita bisa kirim gambar dengan ukuran besar dan ketika di layar kecil, kita bisa kirim gambar ukuran kecil.
+
+    Picture Content
+    tag img adalah void element, sedangkan tag picture bukan.
+    di dalam tag picture, kita bisa menambahkan tag source yang berisi lokasi gambar, tag img sebagai default gambar ketika semua kondisi tag source tidak terpenuhi.
+-->
+<html>
+    <body>
+        <h1>Belajar Picture HTML Dasar</h1>
+        <picture>
+            <!--media adalah CSS Selector, jika lebarnya 500px maka akan ada gambar tikus, jika lebarnya 250px maka ada gambar kucing, dan jika keduanya tidak memenuhi maka akan ada gambar dinosaurus-->
+            <source media="(max-width :500px)" srcset="tikus.png">
+            <source media="(max-width :250x)" srcset="kucing.png">
+            <img src="dinosaurus.png" alt="Yee" style="width: 250px; height: 250px;">
+        </picture>
+    </body>
+</html>
