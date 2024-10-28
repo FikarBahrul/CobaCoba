@@ -1,0 +1,17 @@
+Dalam HTML semua Element memiliki nilai Display, tergantung jenis Element yang digunakan.
+secara garis besar, ada dua nilai untuk Display, Block dan Inline.
+
+Block
+Block memiliki nilai Display Block, selalu dimulai dengan baris baru.
+Web Browser secara otomatis menambahkan jarak/margin sebelum dan setelah Element.
+Dan Element dengan nilai Display Block, selalu mengambil ukuran penuh yang tersedia, yang artinya dia akan meregang dari kiri ke kanan.
+contoh Tag yang menggunakan nilai Display Block adalah :
+h1-h6, p, header, body, ul, li, ol, table, form, dan lain-lain.
+
+Inline
+Inline memiliki nilai Display, Element tidak dimulai dengan garis baru.
+selain itu, dalam Display Inline, Element hanya menggunakan ukuran seperlunya saja.
+contoh Tag yuang menggunakan nilai Display Inline adalah :
+a, b, i, em, button, strong, input, dan lain-lain.
+
+selebihnya ada di file div dan file span.
