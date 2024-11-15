@@ -1,0 +1,44 @@
+<!--
+Kita tahu bahwa ukuran layar komputer itu bisa berbeda-beda, termasuk smartphone. 
+Saat ini, web tidak hanya diakses oleh komputer, bisa juga melalui smartphone, tablet bahkan tv.
+Artinya ukuran layar pasti akan selalu berubah-ubah. Responsive adalah kemampuan beradaptasi terhadap perubahan ukuran layar.
+Web sekarang biasanya selalu implementasi responsive, agar tidak perlu membuat banyak web untuk layar yang berbeda.
+
+Viewport
+Sebelumnya di materi HTML 5, kita melakukan setting viewport dengan initial-scale=1.0.
+Hal itu dilakukan agar ketika web kita dibuka di mobile (smartphone atau tablet), ukuran web kita mengikuti ukuran layar dari device-nya.
+Ingat, tiap handphone walaupun ukuran layar misal 6 inch, tapi secara pixel bisa berbeda,
+oleh karena itu ketika kita buat website dengan ukuran 100px misal, di handphone dengan kepadatan pixel yang besar, bisa jadi ukurannya sangat kecil,
+dan pada handphone dengan kepadatan pixel rendah, bisa jadi sangat besar.
+Pengaturan viewport bisa mengubah
+
+Responsive Element Size
+Saat kita membuat web, kadang kita menentukan ukuran elemen, misal gambar, table, div dan lain-lain.
+Jika ingin response, kita bisa menggunakan % sebagai ukuran elemen nya, misal ketika kita gunakan nilai 100%,
+artinya ukurannya akan 100% dari viewport yang tampil di Web Browser,
+ketika kita mengubah ukuran Web Browser nya, secara otomatis element akan ikut berubah ukurannya.
+
+Responsive Text Size
+Responsive dengan %, hanya bisa dilakukan di element
+Bagaimana pada kasus di teks misalnya? Kadang kita ingin membesarkan teks secara otomatis pada layar besar, dan mengecilkan pada ukuran layar kecil.
+Pada kasus seperti ini, kita bisa menggunakan unit vm (viewport width) untuk ukuran font.
+
+Media Query
+Pada kasus seperti gambar, mungkin ketika layar terlalu besar, dan ukuran gambar kecil, secara otomatis gambar akan pecah, oleh karena itu biasanya pada kasus seperti ini, kita akan menyediakan beberapa jenis ukuran gambar.
+Dan untuk melakukannya, biasanya kita akan menggunakan CSS Media Query, seperti yang pernah kita praktekan di materi Picture.   
+Materi Media Query di CSS.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Responsive</title>
+</head>
+<body>
+    <h1 style="font-size: 5vw;">Belajar Responsive</h1>
+    <p style="font-size: 2vw;">Belajar Responsive</p>
+    <img style="width: 100%; height: auto;" src="tikus.png" alt="Tikus">
+</body>
+</html>

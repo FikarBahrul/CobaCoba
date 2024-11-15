@@ -1,0 +1,97 @@
+<!--
+Semantic Element adalah element yang memiliki arti dimana saat HTML 5 rilis memiliki tag yang punya arti
+sangat disarankan menggunakan semantic tag
+Semantic Tag :
+tag article untuk konten artikel
+tag aside untuk bagian disamping konten, misal sidebar
+tag figure untuk konten ilustrasi, diagram, foto, dll
+tag figurecaption untuk keterangan tag figure
+tag footer untuk bagian footer document
+tag header untuk bagian header document
+tag main untuk konten utama document
+tag mark untuk bagian yang ditandai atau highlight
+tag nav untuk bagian navigaisi link
+tag section utnuk section di document
+tag details untuk bagian yang lebih detail yang pengguna bisa lihat
+tag summary untuk heading untuk tag details
+tag time untuk konten waktu/tanggal
+
+Layout sangat mudah dibuat dimana setiap tag memiliki arti
+pembuatan Layout menggunakan CSS
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic</title>
+    <style>
+header {
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+article {
+    padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1
+}
+footer {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+nav {
+    background-color: yellow;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: orange;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Judul Halaman</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href=""></a>Beranda</li>
+            <li><a href=""></a>Artikel</li>
+            <li><a href=""></a>Kontak</li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>Belajar HTML Dasar</h1>
+            <p>Isi Belajar HTML</p>
+        </article>
+        <article>
+            <h1>Belajar CSS Dasar</h1>
+            <p>Isi Belajar CSS</p>
+        </article>
+    </section>
+    <footer>
+        <p>Powered by Programmer Zaman Now <time datetime="2023">2023</time></p>
+    </footer>
+    
+</body>
+</html>

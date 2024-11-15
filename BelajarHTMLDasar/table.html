@@ -1,0 +1,64 @@
+<!--
+saat membuat website seringkali ada keperluan membuat tabel dan eksekusi tabel menggunakan banyak sekali tag.
+tag table digunakan untuk membuat tabel
+tag tr digunakan untuk membuat row/baris
+tag th digunakan untuk membuat kolom header table
+tag td untuk membuat kolom isi table
+tag caption untuk keterangan table
+tag thead untuk grub header table
+tag tbody untuk grup isi table
+tag tfoot untuk grup footer table
+
+ColGroup digunakan untuk membuat grup kolom dan didalamnya bisa dimasuki style
+jika ingin menambah style ke lebih dari satu kolom dengan style yang sama, kita bisa menggunakan attribute span=jumlah pada tag col
+
+Colspan dan Rowspan
+Colspan digunakan untuk menggabungkan beberapa kolom dalam baris yang sama
+Rowspan digunakan untuk menggabungkan beberapa kolom di baris yang berbeda
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar table</title>
+</head>
+<body>
+    <h1>Belajar table</h1>
+    <table style="border: 1px solid black;">
+        <colgroup>
+        <col span="2" style="background-color: red;">
+        <col style="background-color: yellow;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2">Nama</th>
+                <th>Nilai</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ananda</td>
+                <td>Pratama</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Miko</td>
+                <td>Mahesa</td>
+                <td>82</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2">Total</td>
+                <td>Total</td>
+                <td>172</td>
+            </tr>
+            <td>Rata-rata</td>
+            <td>86</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
