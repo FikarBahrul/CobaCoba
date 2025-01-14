@@ -1,0 +1,27 @@
+<!--
+Form Tag adalah tag dengan kata kunci form, yang digunakan sebagai bagian dari input informasi yang diberikan oleh pengguna.
+Setiap kita ingin membuat input informasi dari pengguna, maka kita harus buat dalam Form Tag
+
+Form Attribute
+Form Tag memiliki banyak atribut, berikut adalah atribut yang penting untuk kita ketahui:
+name: berisi informasi nama form, nama form harus unik dalam satu file html, tidak boleh ada nama form yang sama
+action: berisi URL (bisa absolute atau relative) kemana informasi di form ini akan dikirim
+enctype: berisi tipe data form, defaultnya "application/x-www-form-urlencoded", atau "multipart/form-data" jika input data berisi file
+method: berisi aksi HTTP Method yang akan digunakan, jika "get" maka informasi akan dikirim sebagai query parameter di URL, jika "post" maka informasi akan dikirim di request body HTTP
+target: berisikan informasi dimana hasil form ini akan ditampilkan, defaultnya adalah "_self" (dihalaman yang sama), atau "blank" (di halaman berbeda)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form name="contoh" action="form-submit.html" enctype="application/x-www-form-urlencoded"
+    method="post" target="_blank">
+    
+    </form>
+    
+</body>
+</html>
